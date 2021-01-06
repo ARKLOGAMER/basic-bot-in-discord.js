@@ -6,15 +6,17 @@ const Discord = require('discord.js')
 
 module.exports = {
 
-    name: 'ticket',
+    name: 'new',
 
     description: "opens a ticket",
+    
+    category: "TICKET",
 
     execute(message, args){
 
         const user = message.author.id;
 
-        const name = "new" + user;
+        const name = "ticket-" + user;
 
         if(message.guild.channels.cache.find(ch => ch.name == name)){
 
