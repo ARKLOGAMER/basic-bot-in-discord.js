@@ -124,6 +124,4 @@ function is_url(str) {
     return true;
   } else {
     return false;
-  }
-  
-}
+
