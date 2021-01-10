@@ -4,7 +4,7 @@ const Discord = require('discord.js')
 module.exports = {
     name: 'cticket',
     description: "ends the ticket",
-    category: "TICKET",
+    category: "NOT WORKING",
     execute(client, message, args){
         if(!message.member.hasPermission("ADMINISTRATOR")) return message.channel.send("Only a moderator can end a ticket!")
 

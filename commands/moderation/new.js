@@ -10,7 +10,7 @@ module.exports = {
 
     description: "opens a ticket",
     
-    category: "TICKET",
+    category: "NOT WORKING",
 
     execute(message, args){
 
